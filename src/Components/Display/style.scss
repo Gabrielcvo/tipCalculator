@@ -1,0 +1,90 @@
+.display {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+
+    width: 400px;
+    height: 360px;
+    border-radius: 15px;
+    margin: 10px;
+    margin-right: 35px;
+
+    background-color: hsl(183, 100%, 15%);
+    .resultsContainer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        flex-direction: column;
+        background-color: inherit;
+        gap: 40px;
+
+        width: 80%;
+
+        .displayInput {
+            display: flex;
+            font-family: "Space Mono", monospace;
+            font-weight: bold;
+            justify-content: space-between;
+            width: 100%;
+            align-items: center;
+
+            span {
+                color: white;
+            }
+
+            p {
+                color: hsl(184, 14%, 56%);
+                font-size: small;
+            }
+
+            input {
+                text-align: end;
+                border: none;
+                background-color: inherit;
+                width: 200px;
+                font-size: 40px;
+                font-family: "Space Mono", monospace;
+                font-weight: 700;
+                color: hsl(172, 67%, 45%);
+            }
+            ::placeholder {
+                color: hsl(172, 67%, 45%);
+            }
+        }
+    }
+
+    .resetButton {
+        background-color: hsl(172, 67%, 45%);
+        width: 80%;
+        border: none;
+        padding: 5px;
+        text-align: center;
+        text-decoration: none;
+        border-radius: 5px;
+        font-size: 16px;
+        color: hsl(183, 100%, 15%);
+        font-family: "Space Mono", monospace;
+        font-weight: 700;
+        font-size: 24px;
+    }
+
+    .resetButton:disabled {
+        background-color: lighten(hsl(183, 100%, 15%), 6%);
+    }
+
+    .resetButton:hover:enabled {
+        background-color: lighten(hsl(172, 67%, 45%), 30%);
+        cursor: pointer;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .display {
+        margin-right: 0;
+        width: 340px;
+        margin: 0;
+        height: 340px;
+    }
+}

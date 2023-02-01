@@ -1,0 +1,25 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 100vw;
+    height: 100vh;
+
+    background-color: hsl(185, 41%, 84%);
+    .calculator {
+        border-radius: 24px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: white;
+
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-height: 790px) {
+    .container {
+        height: 100%;
+    }
+}

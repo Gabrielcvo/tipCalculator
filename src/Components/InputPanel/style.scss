@@ -1,0 +1,161 @@
+.inputContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    height: 450px;
+    border-radius: 24px;
+
+    flex-direction: column;
+
+    padding: 45px;
+
+    input::-webkit-outer-spin-button,
+    input::-webkit-inner-spin-button {
+        -webkit-appearance: none;
+        margin: 0;
+    }
+
+    .billContainer {
+        width: 100%;
+        font-family: "Space Mono", monospace;
+        font-weight: 700;
+        color: hsl(184, 14%, 56%);
+        margin: 10px;
+
+        .billContainerLabels {
+            display: flex;
+            justify-content: space-between;
+            .billSpanError {
+                color: darken(orange, 15%);
+            }
+
+            .billSpan {
+                color: hsl(186, 14%, 43%);
+            }
+        }
+
+        .billInputContainer {
+            display: flex;
+            position: relative;
+            width: 100%;
+            align-items: center;
+            margin-top: 5px;
+            .billIcon {
+                position: absolute;
+                margin: 15px;
+            }
+
+            .billInput {
+                background-color: hsl(189, 41%, 97%);
+                text-align: end;
+                width: 100%;
+                font-family: "Space Mono", monospace;
+                font-weight: 700;
+                text-decoration: none;
+                border-radius: 5px;
+                border: none;
+                font-size: 24px;
+                padding-right: 15px;
+                height: 45px;
+                color: hsl(183, 100%, 15%);
+            }
+            ::placeholder {
+                color: hsl(184, 14%, 56%);
+            }
+
+            .err {
+                border: 2px solid darken(orange, 15%);
+            }
+            .err:focus {
+                border: 2px solid hsl(172, 67%, 45%);
+            }
+
+            .billInput:focus {
+                outline: none !important;
+                border: 2px solid hsl(172, 67%, 45%);
+            }
+        }
+    }
+
+    .buttonsContainer {
+        span {
+            font-family: "Space Mono", monospace;
+            font-weight: 700;
+            color: hsl(186, 14%, 43%);
+        }
+        .buttons {
+            display: flex;
+            gap: 10px;
+            text-align: center;
+            max-width: 380px;
+            flex-wrap: wrap;
+            margin-top: 15px;
+
+            span {
+                margin: 5px;
+            }
+
+            button:hover {
+                background-color: lighten(hsl(172, 67%, 45%), 30%);
+                color: hsl(183, 100%, 15%);
+            }
+
+            .percentageButton {
+                cursor: pointer;
+            }
+            .active {
+                background-color: hsl(172, 67%, 45%);
+                color: hsl(183, 100%, 15%);
+            }
+
+            button,
+            input {
+                background-color: hsl(183, 100%, 15%);
+                width: 120px;
+                border: none;
+                color: white;
+                font-size: 24px;
+                height: 45px;
+                font-family: "Space Mono", monospace;
+                font-weight: 700;
+                text-decoration: none;
+                border-radius: 5px;
+                text-align: center;
+            }
+
+            .customInput {
+                background-color: hsl(189, 41%, 97%);
+                color: hsl(183, 100%, 15%);
+            }
+            ::placeholder {
+                color: hsl(186, 14%, 43%);
+            }
+
+            .customInput:focus {
+                outline: none !important;
+                border: 2px solid hsl(172, 67%, 45%);
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .inputContainer {
+        padding: 0;
+        padding-top: 25px;
+        padding-bottom: 25px;
+        width: 320px;
+        .buttonsContainer {
+            .buttons {
+                .percentageButton {
+                    width: 155px;
+                }
+
+                .customInput {
+                    width: 155px;
+                }
+            }
+        }
+    }
+}

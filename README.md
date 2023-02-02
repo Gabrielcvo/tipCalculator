@@ -1,46 +1,106 @@
-# Getting Started with Create React App
+<h4 align="center"> 
+	:money_with_wings:  Tip Calculator - Calculadora simples da conta do restaurante e gorjetas  :money_with_wings:
+</h4>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<p align="center">
+  <a href="#bulb-sobre-o-projeto">Sobre</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#art-layout-da-aplicação">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#rocket-iniciando-o-projeto">Iniciando o projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#man_technologist-tecnologias-utilizadas">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#raising_hand_man-autor">Autor</a> 
+</p>
 
-## Available Scripts
+</br>
+</br>
 
-In the project directory, you can run:
+## :bulb: Sobre o Projeto:
 
-### `npm start`
+:shopping_cart: Tip Calculator - Uma calculadora para dividir a conta do restaurante e calcular a gorjeta do garçom.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+#### :mag_right: Informações extras:
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+Este projeto foi desenvolvido com o intuito inicial do projeto foi aperfoiçoar um pouco mais minhas habilidades em React, Typescript e o SASS.
 
-### `npm test`
+O projeto é um desafio proposto pelo site Frontend Mentor(link para o desafio: https://www.frontendmentor.io/challenges/tip-calculator-app-ugJNGbJUX), onde temos a ideia do projeto e o design proposto, e o intuito é desenvolver o sistema da maneira mais parecida possivel que conseguirmos. 
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+</br>
+</br>
 
-### `npm run build`
+## :art: Layout da Aplicação:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### :desktop_computer: Desktop Layout:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+#### Tip-Calculator
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+ <img alt="" src="https://res.cloudinary.com/dds7bsyhr/image/upload/v1675348992/tipCalculatorWeb_vphxj8.png">
+ 
+ 
+### :iphone: Mobile Layout:
 
-### `npm run eject`
+#### Tip-Calculator
+ <img alt="" src="https://res.cloudinary.com/dds7bsyhr/image/upload/v1675349067/tipCalculatorMobile_r6tqdx.png">
+ 
+</br>
+</br>
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## :rocket: Iniciando o Projeto:
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Esse projeto só contem uma parte frontend.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+### Pre Requisitos
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+#### Antes de iniciar, é necessário ter instalado as seguintes ferramentas:
 
-## Learn More
+<img align="center" alt="GIT" height="25" width="35" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-original.svg" style="max-width:100%;"> [Git](https://git-scm.com)</img>
+</br>
+<img align="center" alt="NodeJS" height="25" width="35" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original.svg" style="max-width:100%;"> [Node.js](https://nodejs.org/en/)(Para Gerenciamento de Pacotes)</img>
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+#### Também é recomendado um bom editor de código, por exemplo:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+<img align="center" alt="VisualStudioCode" height="25" width="35" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/visualstudio/visualstudio-plain.svg" style="max-width:100%;"> [VSCode](https://code.visualstudio.com/)</img>
+
+
+### :computer: Iniciando o Frontend (Web):
+
+```bash
+
+# Clone esse Repositório
+$ git clone https://github.com/Gabrielcvo/tipCalculator.git
+
+# Entre na pasta do projeto pelo Terminal
+$ cd tipCalculator
+
+# Instale as dependências
+$ npm install
+ ou
+$ yarn install
+
+# Execute a aplicação com esse comando
+$ npm start
+ ou
+$ yarn start
+
+# A aplicação irá iniciar na porta:3000
+
+```
+
+---
+
+ 
+## :man_technologist: Tecnologias Utilizadas:
+
+As ferramentas a seguir foram utilizadas no desenvolvimento da aplicação:
+
+### **Frontend** ([ReactJs](https://reactjs.org/) + [TypeScript](https://www.typescriptlang.org/) + [SASS](https://sass-lang.com/))
+
+
+
+
+</br>
+
+## :raising_hand_man: Autor
+
+<a href="https://github.com/Gabrielcvo">
+ <br />
+ 	<b>Gabriel Santiago</b></a> <a href="www.linkedin.com/in/gabrielsantiagosilva" title="Gabrielcvo"></a>
+ <br />
